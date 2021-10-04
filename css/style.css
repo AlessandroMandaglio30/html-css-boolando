@@ -64,6 +64,7 @@ p{
 .taglio{
     text-decoration: line-through;
 }
+               /**** SCRITTE SULL'IMMAGINE ****/
 .sconto{
     background-color: red;
     position: absolute;
@@ -91,7 +92,7 @@ p{
         font-size: 15px;
         bottom: 20%;
 }
-
+               /**** CUORE SULL'IMMAGINE ****/
 .cuore{
     background-color: white;
     position: absolute;
