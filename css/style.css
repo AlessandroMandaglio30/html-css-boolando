@@ -1,15 +1,16 @@
+               /**** COMMONS ****/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+               /**** CONTEINER ****/
 .conteiner{
     width: auto;
     margin: 0 auto;
 }
-
+               /**** BOX ****/
 .clarefix::after{
     content: "";
     display: table;
@@ -24,8 +25,23 @@
 
 .foto{
     width: 100%;
+    object-fit: cover;
+}
+               /**** HOVER ****/
+.foto-hover{
+    width: 100%;
+    object-fit: cover;
+    display: none;
 }
 
+.box:hover .foto{
+    display: none;
+}
+
+.box:hover .foto-hover{
+    display: inline-block;
+}
+               /**** SCRITTE ****/
 .scritta{
     text-transform: uppercase;
 }
