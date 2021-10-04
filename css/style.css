@@ -44,13 +44,11 @@
     display: inline-block;
 }
                /**** SCRITTE ****/
-.scritta{
-    text-transform: uppercase;
-}
 
 h4{
     font-size: 20px;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 p{
     font-size: 15px;
