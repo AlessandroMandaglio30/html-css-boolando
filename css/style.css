@@ -21,7 +21,9 @@
      float: left;
      width: calc(100% / 3 - 20px);
      margin: 10px;
- }
+     position: relative;
+     overflow: hidden;
+}
 
 .foto{
     width: 100%;
@@ -62,7 +64,33 @@ p{
 .taglio{
     text-decoration: line-through;
 }
+.sconto{
+    background-color: red;
+    position: absolute;
+    color: white;
+    bottom: 20%;
+    padding: 4px;
+    font-size: 15px;
+}
 
+.sost{
+    background-color: rgb(3, 177, 3);
+    position: absolute;
+    color: white;
+    padding: 4px;
+    font-size: 15px;
+    bottom: 20%;
+    right: 62%;
+}
+
+.sost2{
+        background-color: rgb(3, 177, 3);
+        position: absolute;
+        color: white;
+        padding: 4px;
+        font-size: 15px;
+        bottom: 20%;
+}
 
 
 
