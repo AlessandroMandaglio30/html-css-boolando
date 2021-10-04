@@ -92,5 +92,14 @@ p{
         bottom: 20%;
 }
 
+.cuore{
+    background-color: white;
+    position: absolute;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    left: 80%;
+    top: 10%;
+}
 
 
