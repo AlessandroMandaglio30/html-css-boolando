@@ -4,3 +4,49 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+.conteiner{
+    width: auto
+    margin: 0 auto;
+}
+
+.clarefix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ .conteiner{
+     padding: 50px;
+     float: left;
+     width: calc(100% / 3 - 20px);
+     margin: 10px;
+ }
+
+.foto{
+    width: 100%;
+}
+
+.scritta{
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bolder;
+}
+p{
+    font-size: 15px;
+}
+
+.prezzo{
+    color: orangered;
+    font-weight: bolder;
+}
+
+.taglio{
+    text-decoration: line-through;
+}
+
+
+
+
